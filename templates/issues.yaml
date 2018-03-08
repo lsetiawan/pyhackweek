@@ -1,0 +1,113 @@
+issues: 
+  - title:
+    body: |
+    label: 
+
+  - title: upload tutorial content to GitHub/JupyterHub
+    body: |
+      - [ ] early in the planning, learn from the cloud infrastructure team what format of files/datasets they need in posting your interactive lesson on GitHub/JupyterHub (if applicable)
+      - [ ] upload and test all material no later than **one week** prior to the event 
+    label: 
+      - pre-event
+      - tutorial
+
+  - title: select tutorial leads
+    body: |
+      Individuals or small teams should be identified early in the process to lead the development and delivery of each tutorial. Anyone, including participants attending the event, can be tutorial leads provided they have sufficient knowledge of the material and a demonstrated ability to teach in an interactive learning environment. Tutorial lead responsibilities include:
+      - [ ] designing the scope and content of the tutorial
+      - [ ] building online content to accompany the lesson
+      - [ ] testing code and datasets associated with each lesson
+      - [ ] for first-time tutorial leads: deliver a practice tutorial to the organizing committee no later than **two weeks** prior to the event; receive feedback and modify the tutorial if needed
+      - [ ] upload lessons to the appropriate GitHub repository and JupyterHub node (if applicable) no later than **one week** prior to the event (see [#12](https://github.com/uwescience/x-hackweek/issues/12))
+    label: 
+      - pre-event
+      - tutorial
+
+  - title: design a curriculum
+    body: |
+      We suggest that the primary goals of the tutorials should be to provide an entry point into an exploration of participants' datasets, opening the door to more thorough study outside of the hack week. Given the broad span of available tools and topics, the organizing committee should seek to teach content that represents the state-of-the-art and is deemed to be of greatest use to the broadest span of participants. A common theme across all of our hack weeks is to teach initial tutorials in version control, command line interfaces, data science platforms and practices of reproducible research. These tutorials endeavor to provide a common baseline of techniques that participants can build on in other tutorials and project work. Subsequent tutorials are then delivered in more domain-specific fields, but can be arranged in a way that builds knowledge constructively through the week.
+    label:
+      - pre-event
+      - tutorial  
+
+  - title: set up communication channels
+    body: |
+      Communication infrastructure should be set up in the early planning stages to enable communication among organizers and participants:
+      - [ ] build a Slack workspace (e.g. https://geohackweek2018.slack.com). Use a secured channel for admin communications, and a separate channel for individual hack projects.
+      - [ ] set up a twitter handle or hashtag associated with your particular event
+      - [ ] keep website up-to-date with schedules and deadlines
+    label: 
+      - pre-event
+ 
+  - title: write a code of conduct
+    body: |
+      A hack week should have a clear and enforceable code of conduct, that can guide the behavior of participants, and help organizers maintain a professional and welcoming environment.
+      - [ ] decide as an organizing committee what belongs in a code of conduct. [Here](https://github.com/geohackweek/geohackweek.github.io/wiki/Code-of-Conduct) is a previous example based on the [Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), created by the [Ada Initiative](http://adainitiative.org/) and other volunteers. 
+      - [ ] decide on a policy for handling code of conduct infractions.
+      - [ ] take advantage of existing resources and agencies that can assist in training and providing advice, for example the University of Washington's [Green Dot](http://depts.washington.edu/livewell/green-dot/) initiative.
+    label: 
+      - pre-event
+ 
+  - title: select participants to be selected
+    body: |
+      - [ ] read Daniela Huppenkothen's post on [participant selection](https://danielahuppenkothen.wordpress.com/2016/11/16/workshop-participant-selection-from-start-to-finish-an-example/)
+      - [ ] assemble a review committee consisting of a diverse range of hackweek organizers
+      - [ ] decide on a selection procedure. See [participant selection](https://github.com/uwescience/HackWeek-Writeup/blob/master/supplementary_material.tex) for details on how this was handled for previous hackweeks
+      - [ ] consider using the [Entrofy algorithm](https://github.com/dhuppenkothen/entrofy) to further guide the selection process
+    label: 
+      - pre-event
+      - application
+
+  - title: design an application form
+    body: |
+      - [ ] read Daniela Huppenkothen's post on [participant selection](https://danielahuppenkothen.wordpress.com/2016/11/16/workshop-participant-selection-from-start-to-finish-an-example/)
+      - [ ] choose a survey platform. We recommend Google forms or jotform (which allows for users to attach files, e.g. a CV)
+      - [ ] design the application form. Consult with prior hackweek organizers regarding how best to design applications that maximize diversity and minimize potential for bias. See examples from [geo](https://form.jotform.com/geohack/2018)  and [neuro](https://form.jotform.com/80126067304145) hackweeks.
+      Note that we have formatted the application to contain categorical inputs so that these responses can be input into the [Entrofy algorithm](https://github.com/dhuppenkothen/entrofy) we use to assist in applicant selection.
+    label:
+      - pre-event
+      - application  
+
+  - title: secure funding and build a budget
+    body: |
+      Many hackweeks are supported from existing grants. Core eScience hackweeks have been supported directly by eScience funds with supplements from individual departments, industry partners, etc.
+      Budget should include:
+      - [ ] facility rental fee
+      - [ ] catering/banquet fees
+      - [ ] travel/housing support
+      - [ ] income from registration fees
+    label: 
+      - pre-event
+      - budget
+
+  - title: build website
+    body: |
+      Most hackweeks to date have used GitHub to host simple websites to advertise the event. The website should include:
+      - [ ] event name, date, location
+      - [ ] a clear, concise description of the purpose of the event
+      - [ ] link to application form with clear deadlines indicated
+      - [ ] list of organizers, ideally with photos and links to GitHub/email etc
+      - [ ] summary Code of Conduct with link to full code wherever it is located (e.g. wiki page)
+      - [ ] a list of sponsors with logos and links to each organization
+      - [ ] some pretty pictures relevant to the event
+    label: 
+      - pre-event
+      - web-services
+
+  - title: decide on event size / duration
+    body: |
+      - [ ] decide on an optimum and upper limit group size. All hack weeks held so far have had group sizes between 40-60 participants, with a recommended minimum 30 and maximum 70. Decision depends on room size and the capacity for the organizational team to facilitate interactions across participants, keeping in mind issues of maximizing diversity and maximizing engagement of all participants.
+      - [ ] decide on event duration. All hack weeks organized up to now have been five days. This duration was chosen to allow enough time for both learning and project work at the same time. Participants often arrived with ambitious project ideas, or with the goal of taking newly learned methods and applying them to their data sets right away. Thus many projects tended to extend over multiple days. Attendees who participated in multiple projects often used the hack week to try out several different ideas. A five-day hack week allows for ample time for these ambitious projects or experimentation, where a shorter hack week would necessarily have to be more constrained and focused. At the same time, hack weeks tend to be exhausting. Project work often extends into the evenings, and requires prolonged phases of high concentration of participants, thus we limited our hack weeks to five days in order to avoid excessive fatigue among our attendees.
+    label: 
+      - pre-event
+
+  - title: decide on event location
+    body: |
+      - [ ] When considering space, consider both the broader location (city and country) as well as the specifics (the room in which the workshop will occur). The non-traditional nature of hack weeks means that some students report challenges in receiving support from their supervisor or department to attend. Thus, keeping the costs of attendance low (including travel costs, room and board, and conference fees) should be a high priority when deciding on a location.
+      - [ ] ideally choose a large and configurable space, with movable tables and chairs, several screens or projectors, and an ample number of white/chalkboards. A useful guiding principle is to book a space that fits a group at least 25% larger than that envisioned for the workshop, and the less configurable the space, the larger the extra room should be.
+      - [ ] Begin search for collaborative space 12-18 month in advance. Often such spaces are popular and difficult to book.
+      - [ ] consider making breakout rooms available so that individuals can focus on the highly complex tasks that are typical for hack week projects, while providing ample venue for the entire group to congregate for tutorials, breaks and reports.
+      - [ ] there should be plenty of power outlets for participants to plug in their computers. The space should have ready access to wifi, for activities that require an internet connection (e.g., collaborative software development), and organizers should arrange in advance to provide access to visitors from other institutions.
+      - [ ] accessibility should be taken into consideration: is the space accessible for participants who use wheel-chairs? Are accessible restrooms available?
+    label:
+      - pre-event
