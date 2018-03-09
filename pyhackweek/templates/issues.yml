@@ -44,7 +44,7 @@ issues:
     label: 
       - pre-event
  
-  - title: select participants to be selected
+  - title: select participants to be accepted
     body: |
       - [ ] read Daniela Huppenkothen's post on [participant selection](https://danielahuppenkothen.wordpress.com/2016/11/16/workshop-participant-selection-from-start-to-finish-an-example/)
       - [ ] assemble a review committee consisting of a diverse range of hackweek organizers
@@ -59,6 +59,7 @@ issues:
       - [ ] read Daniela Huppenkothen's post on [participant selection](https://danielahuppenkothen.wordpress.com/2016/11/16/workshop-participant-selection-from-start-to-finish-an-example/)
       - [ ] choose a survey platform. We recommend Google forms or jotform (which allows for users to attach files, e.g. a CV)
       - [ ] design the application form. Consult with prior hackweek organizers regarding how best to design applications that maximize diversity and minimize potential for bias. See examples from [geo](https://form.jotform.com/geohack/2018)  and [neuro](https://form.jotform.com/80126067304145) hackweeks.
+      
       Note that we have formatted the application to contain categorical inputs so that these responses can be input into the [Entrofy algorithm](https://github.com/dhuppenkothen/entrofy) we use to assist in applicant selection.
     label:
       - pre-event
@@ -72,6 +73,7 @@ issues:
       - [ ] catering/banquet fees
       - [ ] travel/housing support
       - [ ] income from registration fees
+
       Click [here](https://docs.google.com/spreadsheets/d/176Ye6cbEVO-nfbGOdxrNieoL6jfRdlOIZ16UONBZxUo/edit#gid=0) to view a sample budget based on past eScience hackweeks.
     label: 
       - pre-event
@@ -115,10 +117,10 @@ issues:
       We recommend leveraging many of GitHub's tools for building websites, wiki pages and tracking project work. For each hackweek we recommend:
       - [ ] creating a new GitHub [organization](https://help.github.com/articles/about-organizations/). The advantage to organizations is that it simplifies management of multiple event organizers and their permissions for creating repositories. See for example the [geohackweek organization](https://github.com/geohackweek). 
       - [ ] use [GitHub pages](https://pages.github.com/) to generate a new landing page for your event. For recurring events, we recommend using this page as the container for the current year's events. Past events can then be archived as separate repositories.
-      - [ ] have a 
       - [ ] generate separate repositories within your organization for each tutorial. If designing tutorials for the first time, we recommend using [this](https://github.com/geohackweek/hackweek-tutorial-template) template adapted from Software Carpentry
       - [ ] create a centralized repository for small datasets and jupyter notebooks for the tutorials.
       - [ ] have an environment file for either all the tutorials combined or each tutorial. This ensures that the tutorials are self contained.
+      
       Note that we are in the process of automating some of these steps via scripts in the [pyhackweek](https://github.com/lsetiawan/pyhackweek) repository
     label:
       - pre-event
