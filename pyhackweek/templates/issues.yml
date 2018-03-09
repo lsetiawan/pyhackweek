@@ -14,7 +14,7 @@ issues:
       - [ ] building online content to accompany the lesson
       - [ ] testing code and datasets associated with each lesson
       - [ ] for first-time tutorial leads: deliver a practice tutorial to the organizing committee no later than **two weeks** prior to the event; receive feedback and modify the tutorial if needed
-      - [ ] upload lessons to the appropriate GitHub repository and JupyterHub node (if applicable) no later than **one week** prior to the event (see [#12](https://github.com/uwescience/x-hackweek/issues/12))
+      - [ ] upload lessons to the appropriate GitHub repository and JupyterHub node (if applicable) no later than **one week** prior to the event 
     label: 
       - pre-event
       - tutorial
@@ -72,6 +72,7 @@ issues:
       - [ ] catering/banquet fees
       - [ ] travel/housing support
       - [ ] income from registration fees
+      Click [here](https://docs.google.com/spreadsheets/d/176Ye6cbEVO-nfbGOdxrNieoL6jfRdlOIZ16UONBZxUo/edit#gid=0) to view a sample budget based on past eScience hackweeks.
     label: 
       - pre-event
       - budget
@@ -88,7 +89,7 @@ issues:
       - [ ] some pretty pictures relevant to the event
     label: 
       - pre-event
-      - web-services
+      - web services
 
   - title: decide on event size / duration
     body: |
@@ -105,5 +106,123 @@ issues:
       - [ ] consider making breakout rooms available so that individuals can focus on the highly complex tasks that are typical for hack week projects, while providing ample venue for the entire group to congregate for tutorials, breaks and reports.
       - [ ] there should be plenty of power outlets for participants to plug in their computers. The space should have ready access to wifi, for activities that require an internet connection (e.g., collaborative software development), and organizers should arrange in advance to provide access to visitors from other institutions.
       - [ ] accessibility should be taken into consideration: is the space accessible for participants who use wheel-chairs? Are accessible restrooms available?
+      - [ ] availability of a nursing station should be taken into consideration 
     label:
       - pre-event
+
+  - title: build GitHub web resources
+    body: |
+      We recommend leveraging many of GitHub's tools for building websites, wiki pages and tracking project work. For each hackweek we recommend:
+      - [ ] creating a new GitHub [organization](https://help.github.com/articles/about-organizations/). The advantage to organizations is that it simplifies management of multiple event organizers and their permissions for creating repositories. See for example the [geohackweek organization](https://github.com/geohackweek). 
+      - [ ] use [GitHub pages](https://pages.github.com/) to generate a new landing page for your event. For recurring events, we recommend using this page as the container for the current year's events. Past events can then be archived as separate repositories.
+      - [ ] have a 
+      - [ ] generate separate repositories within your organization for each tutorial. If designing tutorials for the first time, we recommend using [this](https://github.com/geohackweek/hackweek-tutorial-template) template adapted from Software Carpentry
+      - [ ] create a centralized repository for small datasets and jupyter notebooks for the tutorials.
+      - [ ] have an environment file for either all the tutorials combined or each tutorial. This ensures that the tutorials are self contained.
+      Note that we are in the process of automating some of these steps via scripts in the [pyhackweek](https://github.com/lsetiawan/pyhackweek) repository
+    label:
+      - pre-event
+      - web services  
+
+  - title: obtain permission for tracking and studying participants
+    body: |
+      A goal of our previous events was to study the development of a hack week, to observe participant behavior, and quantify the achievement of learning outcomes. 
+      - [ ] invite social scientists to observe hackweek activities 
+      - [ ] apply for approval from Internal Review Board 
+      - [ ] ideally, participants should consent to be contacted at the application stage, which opens up the potential of tracking both participants and non-participants and allows for evaluation of the hack week.
+    label:
+      - pre-event
+      - optional
+
+  - title: design a participant survey
+    body: | 
+      - [ ] build standardized survey aligned with other hackweeks so we can collect data on efficacy of hackweeks
+    label: 
+      - pre-event
+
+  - title: collect survey data
+    body: |
+      - [ ] ensure all participants complete the online hackweek survey. At a minimum, one survey at the end of the hackweek. Some hackweeks have surveyed participants after each tutorial.
+      - [ ] provide a good amount of time during so that participants do not feel rushed
+      - [ ] emphasize the importance of these surveys and they way in which they are informing our publications and research as we continue improving the design of hackweeks
+    label: 
+      - during-event
+
+  - title: hackweek facilitation
+    body: |
+      - [ ] notes here on techniques for presenting and discussing code of conduct, handling imposter syndrome, etc.
+    label:
+      - during-event
+  
+  - title: set up registration page
+    body: |
+      - [ ] eScience has used eventbrite in the past. Create an event page and provide this to accepted participants 
+      - [ ] decide on a nominal fee (helps to ensure commitment to attending the event)
+      - [ ] use registration logs to track confirmed participants
+    label: 
+      - pre-event
+      - application
+    
+  - title: coordinate with industry partners
+    body: | 
+      Some hackweeks invite partners from industry to discuss data science career pathways.
+      - [ ] decide on level of engagement overall and where in the schedule this will be included. Examples include panel interviews, giving tutorials, being available for in person/virtual office hours
+      - [ ] engage early with partners; build on past connections
+      - [ ] provide partners with clear list of expectations and overall format and scheduling of their participation
+    label:
+      - pre-event
+      - during-event
+      - optional
+
+  - title: build and maintain educational web tools
+    body: |
+      JupyterHub and other web services provide platforms for participants to engage in the tutorials using common libraries and configurations. An overview of eScience's preferred configurations is [here](https://github.com/uwescience/Python-for-geosciences/blob/master/20180306/README.md).
+    label:
+      - pre-event
+      - during-event
+      - web services
+
+  - title: advertise the event
+    body: |
+      To maximize diversity of applicants we recommend advertising the event as widely as possible. Use listservers, Twitter, institutional websites, posters around campus, word of mouth.
+    label:
+      - pre-event
+      - application
+
+  - title: catering
+    body: |
+      - [ ] decide on what food will be provided (usually breakfast, lunch, snacks, coffee, possibly a banquet)
+      - [ ] contact caterers with details on numbers of people, scheduling, location
+      - [ ] ensure event location can accommodate food (some rooms restrict eating within the room)
+      - [ ] if using public campus spaces, be sure to have signs indicating food is for your event
+      - [ ] if serving alcohol during the banquet, poll the participants on their age
+    label:
+      - pre-event
+      - during-event
+  
+  - title: video recording of tutorials
+    body: |
+      - [ ] designate someone to operate a video recording device during the tutorials
+      - [ ] edit and upload the tutorial videos to an institutional hackweek youtube channel, e.g. [UW eScience Institute page](https://www.youtube.com/channel/UCLKSeDZWDqBzKRfHTabg1lQ).
+    label:
+      - during-event
+      - post-event
+  
+  - title: compile survey results
+    body: |
+      - [ ] download survey data and evaluate it
+      - [ ] aim for consistent formatting of categorical data for comparison with other hackweeks
+    label:
+      - post-event
+
+  - title: coordinate travel reimbursement
+    body: |
+      Travel reimbursement helps maximize diversity and provides opportunities for participants from other institutions to attend.
+      - [ ] determine total funds available for reimbursement
+      - [ ] design a mechanism for assessing who will be awarded reimbursement
+      - [ ] decide what will be reimbursed (registration waiver, hotel, travel costs, etc)
+      - [ ] work with your institute to determine what mechanism works best for reimbursement (pre, post event?)
+    label:
+      - pre-event
+      - post-event
+      - optional
