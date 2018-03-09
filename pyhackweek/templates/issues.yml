@@ -1,8 +1,4 @@
-issues: 
-  - title:
-    body: |
-    label: 
-
+issues:
   - title: upload tutorial content to GitHub/JupyterHub
     body: |
       - [ ] early in the planning, learn from the cloud infrastructure team what format of files/datasets they need in posting your interactive lesson on GitHub/JupyterHub (if applicable)
