@@ -105,3 +105,6 @@ ENV/
 
 # Credentials
 .creds.json
+
+# Notebooks
+CreateRepo.ipynb
